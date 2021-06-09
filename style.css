@@ -85,11 +85,3 @@ header section {
     opacity: 0.5;
     border-radius: 10px;
 }
-
-content section {
-    display: flex;
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10vh;
-}
