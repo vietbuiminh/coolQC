@@ -85,3 +85,48 @@ header section {
     opacity: 0.5;
     border-radius: 10px;
 }
+
+content section {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.block1 {
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.stack {
+    position: absolute;
+    display: block;
+}
+
+.blue1 {
+    color: #158eff;
+}
+.blue2 {
+    color: #3ba0ff;
+}
+.blue3 {
+    color: #6ab7ff;
+}
+.blue4 {
+    color: #94cbff;
+}
+.blue5 {
+    color: #c2e1ff;
+}
+.blue6 {
+    color: #e4f2ff;
+}
