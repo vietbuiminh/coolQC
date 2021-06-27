@@ -3,6 +3,7 @@ var people = document.getElementById("people-trigger");
 var places = document.getElementById("places-trigger");
 var progress = document.getElementById("progress-trigger");
 var discoverinfo = document.getElementById("discover-info");
+
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".mobile-sticky-nav");
