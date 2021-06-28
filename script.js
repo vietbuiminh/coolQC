@@ -38,7 +38,7 @@ window.onscroll = function() {
     if (prevScrollpos < currentScrollPos && ((document.body.scrollTop > 50 || document.documentElement.scrollTop > 50))) {
     document.getElementById("sticky-nav").style.bottom = "0";
     } else {
-    document.getElementById("sticky-nav").style.bottom = "-200px";
+    document.getElementById("sticky-nav").style.bottom = "-100px";
     }
     prevScrollpos = currentScrollPos;
 }
