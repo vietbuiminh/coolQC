@@ -56,16 +56,20 @@ progress.addEventListener("mouseout", orignalTitle);
 
 function changePeople() {
     discoverinfo.innerHTML = "Read stories about the wonderfull people of Quad Cities.";
+    discoverinfo.style.textAlign = "left";
 }
 
 function changePlaces() {
     discoverinfo.innerHTML = "Discover awesome locations in Quad Citites area.";
+    discoverinfo.style.textAlign = "center";
 }
 
 function changeProgress() {
     discoverinfo.innerHTML = "Read stories about Quad Cities' progress.";
+    discoverinfo.style.textAlign = "right";
 }
 
 function orignalTitle() {
     discoverinfo.innerHTML = "Read stories about the people, places, and progress of Quad Cities."
+    discoverinfo.style.textAlign = "left";
 }
