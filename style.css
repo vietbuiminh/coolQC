@@ -406,6 +406,10 @@ section {
     margin-top: 20vh;
   }
 
+  .logo {
+    width: 150px;
+  }
+
   .nav-spacer {
     width: 0;
     height: 0;
@@ -526,9 +530,6 @@ section {
     margin-top: 10vh;
   }
 
-  .logo {
-    width: 50%;
-  }
   .header-nav a {
     font-size: 40px;
     padding: 20px;
