@@ -325,9 +325,9 @@ section {
 }
 
 #sticky-nav-logo {
-  width: 174px;
-  padding-left: 31px;
-  padding-top: 24px;
+  display: flex;
+  margin-left: 20px;
+  width: 60px;
 }
 
 #contact {
