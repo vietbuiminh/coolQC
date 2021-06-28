@@ -293,7 +293,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.281);
+  background-color: rgba(255, 255, 255, 0.521);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px 10px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px 10px;
   bottom: -100px;
