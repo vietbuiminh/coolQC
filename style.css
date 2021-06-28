@@ -400,6 +400,13 @@ section {
 /* ------------ 960px version of the site ------------ */
 
 @media only screen and (max-width: 960px) {
+  .preload img {
+    width: 150px;
+  }
+
+  .loading {
+    bottom: 10%;
+  }
   .header-nav {
     align-items: center;
     flex-direction: column;
