@@ -9,8 +9,7 @@
     132deg,
     var(--c0) 0%,
     var(--c1) 59%,
-    var(--c2) 100%,
-    0.07,
+    var(--c2) 100%
   );
   --w: var(--c0);
   --shadow: -1px 1px 0 var(--w), 1px 1px 0 var(--w), 1px -1px 0 var(--w),
@@ -48,7 +47,7 @@ section {
   top: 0;
   width: 100%;
   height: 100vh;
-  background: var(--gradient);
+  background: linear-gradient(142deg, rgba(0,0,0,10) 0%, rgba(0,82,112,10) 64%, rgba(68,199,244,30) 100%);
   z-index: 1;
   display: flex;
   justify-content: center;
